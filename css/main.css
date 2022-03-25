@@ -1,0 +1,147 @@
+body {
+    font-family: 'EB Garamond', Garamond, serif;
+    margin: 0 2rem 0 2rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    padding-top: 0.6rem;
+}
+
+.button {
+    font-size: 1rem;
+    font-weight: 200;
+
+    border-style: solid;
+    border-radius: 1.2rem;
+    border-width: 0.0625rem;
+    border-color: black;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    background-color: white;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
+
+.slide-nav {
+    /* text-align: center; */
+    position: fixed;
+    bottom: 2rem;
+    left: 10rem;
+}
+
+.spacer {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.bio {
+    /* font-size: 2.4rem;
+    line-height: 2.8rem; */
+    font-size: 3rem;
+    line-height: 3.4rem;
+    max-width: 100%;
+}
+
+.portfolio-summary {
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1.75rem;
+    max-width: 50rem;
+    margin-right: 1rem;
+}
+
+.small-text {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.slide-num, .project-head {
+    font-size: 1rem;
+    display: inline-block;
+    /* background-color: white; */
+    mix-blend-mode: difference;
+}
+
+.emphasize-text, figcaption, .quote {
+    font-style: italic;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    grid-template-rows: auto 1fr;
+    margin-bottom: 8rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.button-prev, .project-head {
+    margin-right: 1rem;
+}
+
+.img-content {
+    width:100%;
+    max-width: 50rem;
+    height: auto;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: black;
+}
+
+.big-content {
+    max-width: 32rem;
+}
+
+.small-content {
+   max-width: 18rem; 
+}
+
+figure {
+    margin: 0;
+}
+
+.video-caption {
+    font-size: 1rem;
+    margin: 0;
+    font-style: italic;
+}
+
+figcaption {
+    max-width: 50rem;
+}
+
+.in-text-link {
+    text-decoration: underline;
+}
+
+.in-text-link:hover, .in-text-link:focus {
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.cover-img {
+    padding: 2rem;
+}
+
